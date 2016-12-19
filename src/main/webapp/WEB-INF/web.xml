@@ -1,0 +1,51 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+<!-- <listener> -->
+<!-- 	<listener-class>com.hand.web.listener.ApplicationListener</listener-class> -->
+<!-- </listener> -->
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.hand.web.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FindLanguageServlet</servlet-name>
+  	<display-name>FindLanguageServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.hand.web.servlet.FindLanguageServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InsertFilmServlet</servlet-name>
+  	<display-name>InsertFilmServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.hand.web.servlet.InsertFilmServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowIndexServlet</servlet-name>
+  	<display-name>ShowIndexServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.hand.web.servlet.ShowIndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FindLanguageServlet</servlet-name>
+  	<url-pattern>/FindLanguageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertFilmServlet</servlet-name>
+  	<url-pattern>/InsertFilmServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowIndexServlet</servlet-name>
+  	<url-pattern>/ShowIndexServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
